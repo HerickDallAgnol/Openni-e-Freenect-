@@ -82,7 +82,7 @@ Agora temos os pontos no display:
 
 Também podemos visualizar outros topicos como a camera rgb:
 
-![]()
+![](https://github.com/HerickDallAgnol/Openni-e-Freenect-/blob/main/imagecolor.gif)
 
 
 
