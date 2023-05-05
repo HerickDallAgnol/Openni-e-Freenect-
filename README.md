@@ -6,7 +6,7 @@
 
 Este "repositorio" contém instruções para:
 
-## [Instalação do Freenect_stack: ](RO2_Install.md)
+## [Instalação do Freenect_stack: ](freenect_install.md)
   + Instalação dos pacotes.
   + Configuração rviz
   
