@@ -1,11 +1,15 @@
-# OpenNI Tracker
+# Freenect E Openni
+![Badge em Desenvolvimento](https://img.shields.io/badge/Status-development-orange)
+![Badge Ubunto](https://img.shields.io/badge/-Ubunto%2020.04-green)
 
-The OpenNI tracker broadcasts the OpenNI skeleton frames using tf.
-For more information checkout the ROS Wiki: http://ros.org/wiki/openni_tracker
+![This is an image](https://d2r9epyceweg5n.cloudfront.net/stores/001/085/832/products/lkcsvc2-ca1068aade5a13cd7016799502616328-640-0.webp)
 
-#NITE Information
+Este "repositorio" contém instruções para:
 
-The NITE library must be manually installed for openni_tracker to function.  The two versions that are compatible with this package are 1.5.2.21 and 1.5.2.23.
-
-NITE v1.5.2.23 can currently be downloaded from [http://www.openni.ru/openni-sdk/openni-sdk-history-2/](http://www.openni.ru/openni-sdk/openni-sdk-history-2/)
-
+## [Instalação do Freenect_stack: ](RO2_Install.md)
+  + Instalação dos pacotes.
+  + Configuração rviz
+  
+## [Instalação do Oppeni_camera ](ROS2_TurtleBot3.md)
+  + Instalação de pacotes 
+  + rviz
