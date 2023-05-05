@@ -60,10 +60,26 @@ Para a visualização dos topicos do Kinect usamos o rviz, em outro terminal:
 ```
 $ source devel/setup.bash
 $ rviz
-
 ```
-
 
 ## Configuração Rviz
 
 Primeiro devemos setar o rziv:
+1. Nas 'Global Options' setamos o 'Fixed Frame' para 'camera_link'
+
+![image](https://user-images.githubusercontent.com/112727443/236491093-f5f4da5f-d709-4a50-85c0-f56d959fb1d2.png)
+
+2. Adicionamos 'pointcloud2' e setemos o topico para '/camera/depth_registered/points'
+
+![image](https://user-images.githubusercontent.com/112727443/236491568-bb6ed89f-4ca2-48c2-acef-66cbf4496b42.png) 
+
+
+![image](https://user-images.githubusercontent.com/112727443/236491772-02c92416-1c0c-4944-aae1-91e29ebd2553.png)
+
+Agora temos os pontos no display:
+
+![](https://github.com/HerickDallAgnol/Openni-e-Freenect-/blob/main/rviz.gif)
+
+
+
+
