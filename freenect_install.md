@@ -80,6 +80,11 @@ Agora temos os pontos no display:
 
 ![](https://github.com/HerickDallAgnol/Openni-e-Freenect-/blob/main/rviz.gif)
 
+Também podemos visualizar outros topicos como a camera rgb:
+
+![]()
+
+
 
 
 
