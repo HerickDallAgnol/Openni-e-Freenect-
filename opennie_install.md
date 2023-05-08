@@ -41,7 +41,8 @@ $ roslaunch openni_launch openni.launch
 
 ## Configuração do openin_tracker
 
-## Instalação dos pacotes no Workspace :
+Instalação dos pacotes no Workspace :
+
 ```
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/ros-drivers/openni_tracker
@@ -84,4 +85,20 @@ $ cd ~/catkin_ws/src/NITE-Bin-Dev-Linux-v1.5.2.23
 $ cd x86/x64 (dependendo da arquitetura)
 $ sudo bash install.sh
 ```
+## Testando openni_tracker
+
+Iniciamos abrindo o launch do openni:
+
+```
+$ roslaunch openni_launch openni.launch
+```
+
+Em outro terminal, utilizamos a seguinte linha de código para que as seja ossível ver os dados do pointcloud e as transformações tf no rviz ao mesmo tempo:
+
+```
+$ rosparam set /openni_tracker/camera_frame_id camera_link
+$ rosrun openni_tracker openni_tracker
+```
+
+
 
