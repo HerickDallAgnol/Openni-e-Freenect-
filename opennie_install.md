@@ -105,13 +105,17 @@ Abrimos o rviz em outro terminal:
 ```
 $ rviz
 ```
+Primeiro devemos setar o rziv:
+1. Nas 'Global Options' setamos o 'Fixed Frame' para 'camera_link'
 
-Adicionamos o TF:
+![image](https://user-images.githubusercontent.com/112727443/236491093-f5f4da5f-d709-4a50-85c0-f56d959fb1d2.png)
+
+2. Adicionamos o TF:
 
 ![image](https://user-images.githubusercontent.com/112727443/236877310-e0837b4e-560e-48a6-8e99-0c72ac0111aa.png)
 
 Fazendo o T pose em frente do kinect conseguimos fazer o rastreamento:
-Screenshot from 2023-05-08 13-23-15Screenshot from 2023-05-08 13-23-15
+
 ![](https://github.com/HerickDallAgnol/Openni-e-Freenect-/blob/main/tf.gif)
 
 
