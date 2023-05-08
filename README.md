@@ -10,6 +10,6 @@ Este "repositorio" contém instruções para:
   + Instalação dos pacotes.
   + Configuração rviz
   
-## [Instalação do Oppeni_camera ](ROS2_TurtleBot3.md)
+## [Instalação do Oppeni_camera ](opennie_install.md)
   + Instalação de pacotes 
   + rviz
