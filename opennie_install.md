@@ -1,4 +1,4 @@
-# Tutorial Basico Instalação Oppenni
+# Tutorial Basico Instalação Openni
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 ## Instalação dos pacotes dependentes:
@@ -39,7 +39,7 @@ $ roslaunch openni_launch openni.launch
 
 ```
 
-## Configuração do oppenin_tracker
+## Configuração do openin_tracker
 
 ## Instalação dos pacotes no Workspace :
 ```
@@ -48,7 +48,9 @@ $ git clone https://github.com/ros-drivers/openni_tracker
 ```
 Para funcionar corretamente no Ubuntu 20.04, subsitutua os arquivos do pacote openni_tracker por esses disponibilizados no repositorio (Cmakelists.txt, openni_tracker.xml, package.xml).
 
-Foi feita uma mudança no CmakeLists.txt 
+Foi feita uma mudança no CmakeLists.txt :
+
+![image](https://user-images.githubusercontent.com/112727443/236873056-6443eda0-5308-4b9f-b099-8351e74ab8f1.png)
 
 Checar as dependências com rosdep:
 ```
