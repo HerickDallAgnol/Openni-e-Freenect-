@@ -46,6 +46,10 @@ $ roslaunch openni_launch openni.launch
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/ros-drivers/openni_tracker
 ```
+Para funcionar corretamente no Ubuntu 20.04, subsitutua os arquivos do pacote openni_tracker por esses disponibilizados no repositorio (Cmakelists.txt, openni_tracker.xml, package.xml).
+
+Foi feita uma mudança no CmakeLists.txt 
+
 Checar as dependências com rosdep:
 ```
 $ rosdep update
