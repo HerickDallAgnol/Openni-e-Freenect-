@@ -100,5 +100,19 @@ $ rosparam set /openni_tracker/camera_frame_id camera_link
 $ rosrun openni_tracker openni_tracker
 ```
 
+Abrimos o rviz em outro terminal:
+
+```
+$ rviz
+```
+
+Adicionamos o TF:
+
+![image](https://user-images.githubusercontent.com/112727443/236877310-e0837b4e-560e-48a6-8e99-0c72ac0111aa.png)
+
+Fazendo o T pose em frente do kinect conseguimos fazer o rastreamento:
+Screenshot from 2023-05-08 13-23-15Screenshot from 2023-05-08 13-23-15
+![](https://github.com/HerickDallAgnol/Openni-e-Freenect-/blob/main/tf.gif)
+
 
 
