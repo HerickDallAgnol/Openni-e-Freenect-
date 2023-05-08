@@ -12,4 +12,5 @@ Este "repositorio" contém instruções para:
   
 ## [Instalação do Oppeni_camera ](opennie_install.md)
   + Instalação de pacotes 
+  + Openni_tracker 
   + rviz
